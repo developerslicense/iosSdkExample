@@ -1,0 +1,714 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		DC3777902BFB5FFC00D3B10F /* TestCardsPagee.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC37778F2BFB5FFC00D3B10F /* TestCardsPagee.swift */; };
+		DC75A79A2C08A53C00808A52 /* SimpleToast in Frameworks */ = {isa = PBXBuildFile; productRef = DC75A7992C08A53C00808A52 /* SimpleToast */; };
+		DC75A79C2C08A55D00808A52 /* CoreEditText.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC75A79B2C08A55D00808A52 /* CoreEditText.swift */; };
+		DC75A79E2C08A56E00808A52 /* ViewEditText.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC75A79D2C08A56E00808A52 /* ViewEditText.swift */; };
+		DC75A7A02C08A76000808A52 /* SwitchedView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC75A79F2C08A76000808A52 /* SwitchedView.swift */; };
+		DC75A7A22C08A7C000808A52 /* ProgressBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC75A7A12C08A7C000808A52 /* ProgressBar.swift */; };
+		DC7728B32BFCC1EF008ED74D /* ApplePayManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC7728B22BFCC1EF008ED74D /* ApplePayManager.swift */; };
+		DCA1B0762BA2DE6500ADC376 /* TestApplePayPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCA1B0752BA2DE6500ADC376 /* TestApplePayPage.swift */; };
+		DCC11AFC2B1EE7F6009214DC /* FirebaseAnalytics in Frameworks */ = {isa = PBXBuildFile; productRef = DCC11AFB2B1EE7F6009214DC /* FirebaseAnalytics */; };
+		DCFA47EA2AB17A2C00E52A79 /* TestApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCFA47E92AB17A2C00E52A79 /* TestApp.swift */; };
+		DCFA47EC2AB17A2C00E52A79 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCFA47EB2AB17A2C00E52A79 /* ContentView.swift */; };
+		DCFA47EE2AB17A2D00E52A79 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DCFA47ED2AB17A2D00E52A79 /* Assets.xcassets */; };
+		DCFA47F12AB17A2D00E52A79 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DCFA47F02AB17A2D00E52A79 /* Preview Assets.xcassets */; };
+		DCFA47FB2AB17A2D00E52A79 /* TestAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCFA47FA2AB17A2D00E52A79 /* TestAppTests.swift */; };
+		DCFA48052AB17A2D00E52A79 /* TestAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCFA48042AB17A2D00E52A79 /* TestAppUITests.swift */; };
+		DCFA48072AB17A2D00E52A79 /* TestAppUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCFA48062AB17A2D00E52A79 /* TestAppUITestsLaunchTests.swift */; };
+		DCFA48152AB18CBD00E52A79 /* AirbaPay in Frameworks */ = {isa = PBXBuildFile; productRef = DCFA48142AB18CBD00E52A79 /* AirbaPay */; };
+		DCFA48182AB18D1700E52A79 /* PathPresenter in Frameworks */ = {isa = PBXBuildFile; productRef = DCFA48172AB18D1700E52A79 /* PathPresenter */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		DCFA47F72AB17A2D00E52A79 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DCFA47DE2AB17A2C00E52A79 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DCFA47E52AB17A2C00E52A79;
+			remoteInfo = TestApp;
+		};
+		DCFA48012AB17A2D00E52A79 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DCFA47DE2AB17A2C00E52A79 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DCFA47E52AB17A2C00E52A79;
+			remoteInfo = TestApp;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		DC37778F2BFB5FFC00D3B10F /* TestCardsPagee.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestCardsPagee.swift; sourceTree = "<group>"; };
+		DC75A79B2C08A55D00808A52 /* CoreEditText.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreEditText.swift; sourceTree = "<group>"; };
+		DC75A79D2C08A56E00808A52 /* ViewEditText.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewEditText.swift; sourceTree = "<group>"; };
+		DC75A79F2C08A76000808A52 /* SwitchedView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwitchedView.swift; sourceTree = "<group>"; };
+		DC75A7A12C08A7C000808A52 /* ProgressBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProgressBar.swift; sourceTree = "<group>"; };
+		DC7728B22BFCC1EF008ED74D /* ApplePayManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApplePayManager.swift; sourceTree = "<group>"; };
+		DCA1B0752BA2DE6500ADC376 /* TestApplePayPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestApplePayPage.swift; sourceTree = "<group>"; };
+		DCAD99F92BC3BA5300DD65BC /* TestApp.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = TestApp.entitlements; sourceTree = "<group>"; };
+		DCFA47E62AB17A2C00E52A79 /* TestApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TestApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		DCFA47E92AB17A2C00E52A79 /* TestApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestApp.swift; sourceTree = "<group>"; };
+		DCFA47EB2AB17A2C00E52A79 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		DCFA47ED2AB17A2D00E52A79 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		DCFA47F02AB17A2D00E52A79 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		DCFA47F62AB17A2D00E52A79 /* TestAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TestAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		DCFA47FA2AB17A2D00E52A79 /* TestAppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestAppTests.swift; sourceTree = "<group>"; };
+		DCFA48002AB17A2D00E52A79 /* TestAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TestAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		DCFA48042AB17A2D00E52A79 /* TestAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestAppUITests.swift; sourceTree = "<group>"; };
+		DCFA48062AB17A2D00E52A79 /* TestAppUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestAppUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		DCFA481D2AB1AAA800E52A79 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DCFA47E32AB17A2C00E52A79 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DC75A79A2C08A53C00808A52 /* SimpleToast in Frameworks */,
+				DCFA48182AB18D1700E52A79 /* PathPresenter in Frameworks */,
+				DCFA48152AB18CBD00E52A79 /* AirbaPay in Frameworks */,
+				DCC11AFC2B1EE7F6009214DC /* FirebaseAnalytics in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DCFA47F32AB17A2D00E52A79 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DCFA47FD2AB17A2D00E52A79 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		DCFA47DD2AB17A2C00E52A79 = {
+			isa = PBXGroup;
+			children = (
+				DCFA47E82AB17A2C00E52A79 /* TestApp */,
+				DCFA47F92AB17A2D00E52A79 /* TestAppTests */,
+				DCFA48032AB17A2D00E52A79 /* TestAppUITests */,
+				DCFA47E72AB17A2C00E52A79 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		DCFA47E72AB17A2C00E52A79 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DCFA47E62AB17A2C00E52A79 /* TestApp.app */,
+				DCFA47F62AB17A2D00E52A79 /* TestAppTests.xctest */,
+				DCFA48002AB17A2D00E52A79 /* TestAppUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DCFA47E82AB17A2C00E52A79 /* TestApp */ = {
+			isa = PBXGroup;
+			children = (
+				DCAD99F92BC3BA5300DD65BC /* TestApp.entitlements */,
+				DCFA481D2AB1AAA800E52A79 /* Info.plist */,
+				DCFA47E92AB17A2C00E52A79 /* TestApp.swift */,
+				DCFA47EB2AB17A2C00E52A79 /* ContentView.swift */,
+				DCFA47ED2AB17A2D00E52A79 /* Assets.xcassets */,
+				DCFA47EF2AB17A2D00E52A79 /* Preview Content */,
+				DCA1B0752BA2DE6500ADC376 /* TestApplePayPage.swift */,
+				DC37778F2BFB5FFC00D3B10F /* TestCardsPagee.swift */,
+				DC7728B22BFCC1EF008ED74D /* ApplePayManager.swift */,
+				DC75A79B2C08A55D00808A52 /* CoreEditText.swift */,
+				DC75A79D2C08A56E00808A52 /* ViewEditText.swift */,
+				DC75A79F2C08A76000808A52 /* SwitchedView.swift */,
+				DC75A7A12C08A7C000808A52 /* ProgressBar.swift */,
+			);
+			path = TestApp;
+			sourceTree = "<group>";
+		};
+		DCFA47EF2AB17A2D00E52A79 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				DCFA47F02AB17A2D00E52A79 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		DCFA47F92AB17A2D00E52A79 /* TestAppTests */ = {
+			isa = PBXGroup;
+			children = (
+				DCFA47FA2AB17A2D00E52A79 /* TestAppTests.swift */,
+			);
+			path = TestAppTests;
+			sourceTree = "<group>";
+		};
+		DCFA48032AB17A2D00E52A79 /* TestAppUITests */ = {
+			isa = PBXGroup;
+			children = (
+				DCFA48042AB17A2D00E52A79 /* TestAppUITests.swift */,
+				DCFA48062AB17A2D00E52A79 /* TestAppUITestsLaunchTests.swift */,
+			);
+			path = TestAppUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DCFA47E52AB17A2C00E52A79 /* TestApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DCFA480A2AB17A2D00E52A79 /* Build configuration list for PBXNativeTarget "TestApp" */;
+			buildPhases = (
+				DCFA47E22AB17A2C00E52A79 /* Sources */,
+				DCFA47E32AB17A2C00E52A79 /* Frameworks */,
+				DCFA47E42AB17A2C00E52A79 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TestApp;
+			packageProductDependencies = (
+				DCFA48142AB18CBD00E52A79 /* AirbaPay */,
+				DCFA48172AB18D1700E52A79 /* PathPresenter */,
+				DCC11AFB2B1EE7F6009214DC /* FirebaseAnalytics */,
+				DC75A7992C08A53C00808A52 /* SimpleToast */,
+			);
+			productName = TestApp;
+			productReference = DCFA47E62AB17A2C00E52A79 /* TestApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+		DCFA47F52AB17A2D00E52A79 /* TestAppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DCFA480D2AB17A2D00E52A79 /* Build configuration list for PBXNativeTarget "TestAppTests" */;
+			buildPhases = (
+				DCFA47F22AB17A2D00E52A79 /* Sources */,
+				DCFA47F32AB17A2D00E52A79 /* Frameworks */,
+				DCFA47F42AB17A2D00E52A79 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DCFA47F82AB17A2D00E52A79 /* PBXTargetDependency */,
+			);
+			name = TestAppTests;
+			productName = TestAppTests;
+			productReference = DCFA47F62AB17A2D00E52A79 /* TestAppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		DCFA47FF2AB17A2D00E52A79 /* TestAppUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DCFA48102AB17A2D00E52A79 /* Build configuration list for PBXNativeTarget "TestAppUITests" */;
+			buildPhases = (
+				DCFA47FC2AB17A2D00E52A79 /* Sources */,
+				DCFA47FD2AB17A2D00E52A79 /* Frameworks */,
+				DCFA47FE2AB17A2D00E52A79 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DCFA48022AB17A2D00E52A79 /* PBXTargetDependency */,
+			);
+			name = TestAppUITests;
+			productName = TestAppUITests;
+			productReference = DCFA48002AB17A2D00E52A79 /* TestAppUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DCFA47DE2AB17A2C00E52A79 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1430;
+				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+					DCFA47E52AB17A2C00E52A79 = {
+						CreatedOnToolsVersion = 14.3.1;
+					};
+					DCFA47F52AB17A2D00E52A79 = {
+						CreatedOnToolsVersion = 14.3.1;
+						TestTargetID = DCFA47E52AB17A2C00E52A79;
+					};
+					DCFA47FF2AB17A2D00E52A79 = {
+						CreatedOnToolsVersion = 14.3.1;
+						TestTargetID = DCFA47E52AB17A2C00E52A79;
+					};
+				};
+			};
+			buildConfigurationList = DCFA47E12AB17A2C00E52A79 /* Build configuration list for PBXProject "TestApp" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = DCFA47DD2AB17A2C00E52A79;
+			packageReferences = (
+				DCFA48132AB18CBD00E52A79 /* XCRemoteSwiftPackageReference "apay-ios" */,
+				DCFA48162AB18D1700E52A79 /* XCRemoteSwiftPackageReference "PathPresenter" */,
+				DCC11AFA2B1EE7F6009214DC /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */,
+				DC75A7982C08A53C00808A52 /* XCRemoteSwiftPackageReference "SimpleToast" */,
+			);
+			productRefGroup = DCFA47E72AB17A2C00E52A79 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DCFA47E52AB17A2C00E52A79 /* TestApp */,
+				DCFA47F52AB17A2D00E52A79 /* TestAppTests */,
+				DCFA47FF2AB17A2D00E52A79 /* TestAppUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DCFA47E42AB17A2C00E52A79 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DCFA47F12AB17A2D00E52A79 /* Preview Assets.xcassets in Resources */,
+				DCFA47EE2AB17A2D00E52A79 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DCFA47F42AB17A2D00E52A79 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DCFA47FE2AB17A2D00E52A79 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DCFA47E22AB17A2C00E52A79 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DC75A79E2C08A56E00808A52 /* ViewEditText.swift in Sources */,
+				DCFA47EC2AB17A2C00E52A79 /* ContentView.swift in Sources */,
+				DCA1B0762BA2DE6500ADC376 /* TestApplePayPage.swift in Sources */,
+				DC75A7A02C08A76000808A52 /* SwitchedView.swift in Sources */,
+				DC75A7A22C08A7C000808A52 /* ProgressBar.swift in Sources */,
+				DC7728B32BFCC1EF008ED74D /* ApplePayManager.swift in Sources */,
+				DC3777902BFB5FFC00D3B10F /* TestCardsPagee.swift in Sources */,
+				DCFA47EA2AB17A2C00E52A79 /* TestApp.swift in Sources */,
+				DC75A79C2C08A55D00808A52 /* CoreEditText.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DCFA47F22AB17A2D00E52A79 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DCFA47FB2AB17A2D00E52A79 /* TestAppTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DCFA47FC2AB17A2D00E52A79 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DCFA48072AB17A2D00E52A79 /* TestAppUITestsLaunchTests.swift in Sources */,
+				DCFA48052AB17A2D00E52A79 /* TestAppUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		DCFA47F82AB17A2D00E52A79 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DCFA47E52AB17A2C00E52A79 /* TestApp */;
+			targetProxy = DCFA47F72AB17A2D00E52A79 /* PBXContainerItemProxy */;
+		};
+		DCFA48022AB17A2D00E52A79 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DCFA47E52AB17A2C00E52A79 /* TestApp */;
+			targetProxy = DCFA48012AB17A2D00E52A79 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		DCFA48082AB17A2D00E52A79 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				GENERATE_INFOPLIST_FILE = NO;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		DCFA48092AB17A2D00E52A79 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				GENERATE_INFOPLIST_FILE = NO;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		DCFA480B2AB17A2D00E52A79 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = TestApp/TestApp.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 14;
+				DEVELOPMENT_ASSET_PATHS = "\"TestApp/Preview Content\"";
+				DEVELOPMENT_TEAM = 8BBUQVJJMA;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = TestApp/Info.plist;
+				INFOPLIST_KEY_NSCameraUsageDescription = "Предоставьте разрешение для использования сканнера банковских карт";
+				INFOPLIST_KEY_NSFaceIDUsageDescription = "Запрос доступа к сохраненным картам";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 2.2;
+				NEW_SETTING = "";
+				NEW_SETTING1 = "";
+				PRODUCT_BUNDLE_IDENTIFIER = kz.testapp.TestApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		DCFA480C2AB17A2D00E52A79 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = TestApp/TestApp.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 14;
+				DEVELOPMENT_ASSET_PATHS = "\"TestApp/Preview Content\"";
+				DEVELOPMENT_TEAM = 8BBUQVJJMA;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = TestApp/Info.plist;
+				INFOPLIST_KEY_NSCameraUsageDescription = "Предоставьте разрешение для использования сканнера банковских карт";
+				INFOPLIST_KEY_NSFaceIDUsageDescription = "Запрос доступа к сохраненным картам";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 2.2;
+				NEW_SETTING = "";
+				NEW_SETTING1 = "";
+				PRODUCT_BUNDLE_IDENTIFIER = kz.testapp.TestApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		DCFA480E2AB17A2D00E52A79 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 8BBUQVJJMA;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = kz.testapp.TestAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TestApp.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/TestApp";
+			};
+			name = Debug;
+		};
+		DCFA480F2AB17A2D00E52A79 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 8BBUQVJJMA;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = kz.testapp.TestAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TestApp.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/TestApp";
+			};
+			name = Release;
+		};
+		DCFA48112AB17A2D00E52A79 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 8BBUQVJJMA;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = kz.testapp.TestAppUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = TestApp;
+			};
+			name = Debug;
+		};
+		DCFA48122AB17A2D00E52A79 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 8BBUQVJJMA;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = kz.testapp.TestAppUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = TestApp;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DCFA47E12AB17A2C00E52A79 /* Build configuration list for PBXProject "TestApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DCFA48082AB17A2D00E52A79 /* Debug */,
+				DCFA48092AB17A2D00E52A79 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DCFA480A2AB17A2D00E52A79 /* Build configuration list for PBXNativeTarget "TestApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DCFA480B2AB17A2D00E52A79 /* Debug */,
+				DCFA480C2AB17A2D00E52A79 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DCFA480D2AB17A2D00E52A79 /* Build configuration list for PBXNativeTarget "TestAppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DCFA480E2AB17A2D00E52A79 /* Debug */,
+				DCFA480F2AB17A2D00E52A79 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DCFA48102AB17A2D00E52A79 /* Build configuration list for PBXNativeTarget "TestAppUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DCFA48112AB17A2D00E52A79 /* Debug */,
+				DCFA48122AB17A2D00E52A79 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		DC75A7982C08A53C00808A52 /* XCRemoteSwiftPackageReference "SimpleToast" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/sanzaru/SimpleToast.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 0.8.1;
+			};
+		};
+		DCC11AFA2B1EE7F6009214DC /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/firebase/firebase-ios-sdk";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 10.18.0;
+			};
+		};
+		DCFA48132AB18CBD00E52A79 /* XCRemoteSwiftPackageReference "apay-ios" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/developerslicense/apay-ios/";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 2.1.1;
+			};
+		};
+		DCFA48162AB18D1700E52A79 /* XCRemoteSwiftPackageReference "PathPresenter" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/alexdremov/PathPresenter";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 1.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		DC75A7992C08A53C00808A52 /* SimpleToast */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = DC75A7982C08A53C00808A52 /* XCRemoteSwiftPackageReference "SimpleToast" */;
+			productName = SimpleToast;
+		};
+		DCC11AFB2B1EE7F6009214DC /* FirebaseAnalytics */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = DCC11AFA2B1EE7F6009214DC /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseAnalytics;
+		};
+		DCFA48142AB18CBD00E52A79 /* AirbaPay */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = DCFA48132AB18CBD00E52A79 /* XCRemoteSwiftPackageReference "apay-ios" */;
+			productName = AirbaPay;
+		};
+		DCFA48172AB18D1700E52A79 /* PathPresenter */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = DCFA48162AB18D1700E52A79 /* XCRemoteSwiftPackageReference "PathPresenter" */;
+			productName = PathPresenter;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = DCFA47DE2AB17A2C00E52A79 /* Project object */;
+}
